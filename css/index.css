@@ -1,0 +1,31 @@
+body{
+    background: black;
+    padding: 0px;
+    margin: 0px;
+}
+canvas{
+    display: block;
+    margin: 0;
+    position: relative;
+    left: 12%;
+}
+
+.time-up {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    z-index: 1;
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    canvas {
+        position: absolute;
+        top: 20%;
+        left: 0;
+    }
+
+    .time-up {
+        top: 35%;
+    }
+}
